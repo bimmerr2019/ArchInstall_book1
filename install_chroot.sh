@@ -23,7 +23,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 hwclock --systohc
 # Don't forget to change "Europe/Berlin" with your own timezone!
 # To list the timezones: `timedatectl list-timezones`
-timedatectl set-timezone "Europe/Berlin"
+timedatectl set-timezone "America/Phoenix"
 
 # Replace en_US.UTF-8 by whatever locale you want.
 # You can run `cat /etc/locale.gen` to see all the locales available
@@ -89,6 +89,6 @@ echo "$name" > /tmp/user_name
 dialog --title "Continue installation" --yesno \
 "Do you want to install all your apps and your dotfiles?" \
 10 60 \
-&& curl https://raw.githubusercontent.com/Phantas0s\
-/arch_installer/master/install_apps.sh > /tmp/install_apps.sh \
+&& curl https://raw.githubusercontent.com/bimmerr2019\
+/ArchInstall_book1/master/install_apps.sh > /tmp/install_apps.sh \
 && bash /tmp/install_apps.sh

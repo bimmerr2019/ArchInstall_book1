@@ -5,8 +5,8 @@ name=$(cat /tmp/user_name)
 apps_path="/tmp/apps.csv"
 
 # Don't forget to replace "Phantas0s" by the username of your Github account
-curl https://raw.githubusercontent.com/Phantas0s\
-/arch_installer/master/apps.csv > $apps_path
+curl https://raw.githubusercontent.com/bimmerr2019\
+/ArchInstall_book1/master/apps.csv > $apps_path
 
 dialog --title "Welcome!" \
 --msgbox "Welcome to the install script for your apps and dotfiles!" \
@@ -77,8 +77,8 @@ done
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
 # Don't forget to replace "Phantas0s" by the username of your Github account
-curl https://raw.githubusercontent.com/Phantas0s\
-/arch_installer/master/install_user.sh > /tmp/install_user.sh;
+curl https://raw.githubusercontent.com/bimmerr2019\
+/ArchInstall_book1/master/install_user.sh > /tmp/install_user.sh;
 
 # Switch user and run the final script
 sudo -u "$name" sh /tmp/install_user.sh
