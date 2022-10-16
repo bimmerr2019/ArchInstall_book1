@@ -19,6 +19,10 @@ tools,nextcloud-client,Nextcloud
 tools,keepassxc,Keepassxc
 tools,unzip,unzip
 tools,zathura-pdf-mupdf,zathura
+tools,newsboat,rss feed reader
+tools,mutt-wizard-git,mutt installer
+tools,pam-gnupg,get PGP keys without prompting
+tools,cron,crontab
 tmux,tmux,Terminal multiplexer
 tmux,tmuxp,Configure tmux session + windows + panes via config files
 notifier,dunst,Notification system
