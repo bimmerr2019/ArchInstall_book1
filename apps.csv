@@ -2,6 +2,7 @@ essential,xorg,X server
 essential,xorg-xinit,Display server boot
 essential,man,Manual
 essential,man-pages,Manual pages
+essential,sof-firmware,fixes a sound card problem
 network,openssh,Remote login tool for SSH protocol
 network,networkmanager,Network manager
 tools,rsync,Synchronizing files across computers
