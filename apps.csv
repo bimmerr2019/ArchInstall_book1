@@ -28,6 +28,7 @@ tools,abook,address book for mutt
 tools,msmtp,check imap mail for mutt
 tools,url-select,alt U in newsboat
 tools,element-desktop, element
+tools,qtodotxt2-git,todo list (nextcloud2)
 tmux,tmux,Terminal multiplexer
 tmux,tmuxp,Configure tmux session + windows + panes via config files
 notifier,dunst,Notification system
